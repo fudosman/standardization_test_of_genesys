@@ -15,10 +15,10 @@ mongoose
     useUnifiedTopology: true
   })
   .then(() => {
-    console.log("Successfully connected to MongoDB Standards!");
+    console.log("Successfully connected to MongoDB!");
   })
   .catch((error) => {
-    console.log("Unable to connect to MongoDB Standards!");
+    console.log("Unable to connect to MongoDB!");
     console.error(error);
   });
   
